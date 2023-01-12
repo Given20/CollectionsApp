@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/libraryFragment">
+
+    <fragment
+        android:id="@+id/libraryFragment"
+        android:name="com.datacase.LibraryFragment"
+        android:label="fragment_library"
+        tools:layout="@layout/fragment_library" >
+        <action
+            android:id="@+id/navigate_to_createLibraryFragment"
+            app:destination="@id/createLibraryFragment" />
+        <action
+            android:id="@+id/navigate_to_libraryItemFragment"
+            app:destination="@id/libraryItemFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/libraryItemFragment"
+        android:name="com.datacase.LibraryItemFragment"
+        android:label="fragment_library_item"
+        tools:layout="@layout/fragment_library_item" >
+        <action
+            android:id="@+id/navigate_to_createLibraryIteamFragment"
+            app:destination="@id/createLibraryIteamFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/createLibraryFragment"
+        android:name="com.datacase.CreateLibraryFragment"
+        android:label="fragment_create_library"
+        tools:layout="@layout/fragment_create_library" >
+        <action
+            android:id="@+id/navigate_to_libraryFragment_from_createLibrary"
+            app:destination="@id/libraryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/createLibraryIteamFragment"
+        android:name="com.datacase.CreateLibraryIteamFragment"
+        android:label="fragment_create_library_iteam"
+        tools:layout="@layout/fragment_create_library_iteam" />
+    <fragment
+        android:id="@+id/feedFragment"
+        android:name="com.datacase.FeedFragment"
+        android:label="fragment_feed"
+        tools:layout="@layout/fragment_feed" />
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.datacase.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
+</navigation>

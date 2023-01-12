@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".FeedFragment" >
+
+    <TextView
+        android:id="@+id/txtCommentCount2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="20"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.01"
+        app:layout_constraintStart_toEndOf="@+id/imgCommentsIcon2"
+        app:layout_constraintTop_toBottomOf="@+id/txtLibraryItem6" />
+
+    <TextView
+        android:id="@+id/txtFavoriteCount2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="60"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.01"
+        app:layout_constraintStart_toEndOf="@+id/imgFavoriteIcon2"
+        app:layout_constraintTop_toBottomOf="@+id/txtLibraryItem6" />
+
+    <TextView
+        android:id="@+id/txtLibraryItem6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Cry, the Beloved Country"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.315"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtLibraryItem5" />
+
+    <TextView
+        android:id="@+id/txtLibraryItem5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Only the pot knows how hot the fire s "
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.391"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtLibraryItem4" />
+
+    <ImageView
+        android:id="@+id/imgCommentsIcon"
+        android:layout_width="27dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/chat_bubble_icon"
+        app:layout_constraintStart_toEndOf="@+id/txtFavoriteCount"
+        app:layout_constraintTop_toBottomOf="@+id/txtLibraryItem3" />
+
+    <ImageView
+        android:id="@+id/imgCommentsIcon2"
+        android:layout_width="27dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/chat_bubble_icon"
+        app:layout_constraintStart_toEndOf="@+id/txtFavoriteCount2"
+        app:layout_constraintTop_toBottomOf="@+id/txtLibraryItem6" />
+
+    <ImageView
+        android:id="@+id/imgCalenderIcon"
+        android:layout_width="27dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="216dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/alendar_icon"
+        app:layout_constraintStart_toEndOf="@+id/txtFavoriteCount"
+        app:layout_constraintTop_toBottomOf="@+id/txtLibraryItem3" />
+
+    <ImageView
+        android:id="@+id/imgCalenderIcon2"
+        android:layout_width="27dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/alendar_icon"
+        app:layout_constraintStart_toEndOf="@+id/txtCommentCount2"
+        app:layout_constraintTop_toBottomOf="@+id/txtLibraryItem6" />
+
+    <TextView
+        android:id="@+id/txtCommentCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="3"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.01"
+        app:layout_constraintStart_toEndOf="@+id/imgCommentsIcon"
+        app:layout_constraintTop_toBottomOf="@+id/txtLibraryItem3" />
+
+    <TextView
+        android:id="@+id/txtCalenderCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="3 days"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.01"
+        app:layout_constraintStart_toEndOf="@+id/imgCalenderIcon"
+        app:layout_constraintTop_toBottomOf="@+id/txtLibraryItem3" />
+
+    <TextView
+        android:id="@+id/txtCalenderCount2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="1 week"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.01"
+        app:layout_constraintStart_toEndOf="@+id/imgCalenderIcon2"
+        app:layout_constraintTop_toBottomOf="@+id/txtLibraryItem6" />
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/grey"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgCommentsIcon" />
+
+    <TextView
+        android:id="@+id/txtLibraryTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="My Games"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.284"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtLibraryTitle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="Books"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.26"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider3" />
+
+    <TextView
+        android:id="@+id/txtLibraryOwner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="kabelo209"
+        android:textColor="@color/grey"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.254"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtLibraryTitle" />
+
+    <TextView
+        android:id="@+id/txtLibraryOwner6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="xolane"
+        android:textColor="@color/grey"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.246"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtLibraryTitle2" />
+
+    <TextView
+        android:id="@+id/txtLibraryItem1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="GTA"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.26"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtLibraryOwner" />
+
+    <TextView
+        android:id="@+id/txtLibraryItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Fools And Other Stories"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.312"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtLibraryOwner6" />
+
+    <TextView
+        android:id="@+id/txtLibraryItem4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="He writes"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.26"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtLibraryItem" />
+
+    <TextView
+        android:id="@+id/txtLibraryItem3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="CALL OF DUTY"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.295"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtLibraryItem2" />
+
+    <TextView
+        android:id="@+id/txtFavoriteCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="30"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.006"
+        app:layout_constraintStart_toEndOf="@+id/imgFavoriteIcon"
+        app:layout_constraintTop_toBottomOf="@+id/txtLibraryItem3" />
+
+    <TextView
+        android:id="@+id/txtLibraryItem2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="FIFA"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.26"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtLibraryItem1" />
+
+    <TextView
+        android:id="@+id/txtLibraryItemNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="48dp"
+        android:text="3"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/txtLibraryTitle"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtLibraryItemNumber2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="4"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.832"
+        app:layout_constraintStart_toEndOf="@+id/txtLibraryTitle2"
+        app:layout_constraintTop_toBottomOf="@+id/divider3" />
+
+    <ImageView
+        android:id="@+id/imgLibraryIcon"
+        android:layout_width="42dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/game_icon"
+        app:layout_constraintEnd_toStartOf="@+id/txtLibraryTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgGameIcon"
+        android:layout_width="42dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="29dp"
+        android:src="@drawable/books_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider3" />
+
+    <ImageView
+        android:id="@+id/imgFavoriteIcon"
+        android:layout_width="27dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/favorite_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtLibraryItem3" />
+
+    <ImageView
+        android:id="@+id/imgFavoriteIcon2"
+        android:layout_width="27dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/favorite_border_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtLibraryItem6" />
+
+    <View
+        android:id="@+id/divider6"
+        android:layout_width="1dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="101dp"
+        android:background="@color/grey"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/divider7"
+        android:layout_width="1dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="316dp"
+        android:background="@color/grey"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

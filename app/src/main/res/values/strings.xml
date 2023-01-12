@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DataCase</string>
+    <string name="user_name">Ofentse Mashigo</string>
+    <string name="email">ofentsemashigo@gmail.com</string>
+    <string name="collection_sortby">Title</string>
+    <string name="walcome_message">WALCOME TO DATACASE</string>
+    <string name="current_page">Library</string>
+    <string name="register">Register</string>
+    <string name="login">Log In</string>
+    <string name="login_message">Already have an account ?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
